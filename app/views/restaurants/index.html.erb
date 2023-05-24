@@ -1,0 +1,8 @@
+<h1>Restaurants</h1>
+<h3>Checkout the following restaurants in your area</h3>
+
+<div id = 'restaurants'>
+  <% @restaurants.each do |restaurant| %>
+  <%= render restaurant %>
+  <% end %>
+</div>
